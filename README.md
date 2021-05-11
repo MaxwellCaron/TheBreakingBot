@@ -11,20 +11,17 @@ Discord bot that creates a message representing a card break with a body as well
   
 **Administrators:**
 
-  * **!title `<title>`** *(Optional)* The title of build **(AS MANY SPACES AS NECCESSARY)**
-  * **!desc `<description>`** *(Optional)* The description of the build **(AS MANY SPACES AS NECCESSARY BUT, ITEMS MUST BE SEPERATED BY COMMAS)**
-  * **!body `<body>`** The body or the key(s) and price(s) of the build **(KEY AND PRICE MUST BE ONE WORD OR LINKED WITH DASHES OR UNDERSCORES ALSO ALTERNATING, EX: SPOT1 29 SPOT-2 30)** 
+  * **!title `<title>`** *(Optional)* The title of break **(EX: !title This is a Test Title!)**
+  * **!desc `<description>`** *(Optional)* The description of the break **(EX: !desc Box 1, Box 2, Box 3)**
+  * **!keysprice `<key>` `<price>`** The key(s) with corresponding price(s) of the break **(EX: !keysprice SPOT1 29 SPOT-2 30)** 
+  * **!keys `<body>`** Only the key(s) of the break **(EX: !keys SPOT1 SPOT-2)** 
   * **!build** Builds and sends the message from the data inserted above
 <br/><br/>
-  * **!setclaim or !sc `<name>` `<key(s)>`** Claims key(s) for a desired user, overwrites everyone.
-  * **!setpaid or !sp `<key(s)>`** Adds a money bag next to the user's name signifying that the user has paid.
-  * **!delclaim ot !dc `<key(s)>`** Removes the user(s) that claimed the team(s)
-  * **!delbuild or !db** Deletes the break in the current channel.
-
-**Admin Reaction Commands:**
-  * :twisted_rightwards_arrows: Randomizes the order of the break.
-  * :repeat: Resets the order of the break.
-  * :new: Fully resets the break: order, claims, and paids.
+  * **!setclaim or !sc `<name>` `<key(s)>`** Claims key(s) for a desired user, overwrites everyone **(EX: !setclaim Bob SPOT1 SPOT-2)**
+  * **!setpaid or !sp `<key(s)>`** Adds a money bag next to the user's name signifying that the user has paid **(EX: !setpaid SPOT1)**
+  * **!delclaim ot !dc `<key(s)>`** Removes the user(s) that claimed the team(s) **(EX: !delclaim SPOT-2)**
+  * **!delbuild or !db** Deletes the break in the current channel 
+  * **!export or !e** Creates a spreadsheet that lasts for 1 minute with the key(s) and user(s) on it **(Best for copying & pasting into a personal sheet)** 
 
 ## Examples:
 **Claim Commands**
@@ -34,11 +31,4 @@ https://user-images.githubusercontent.com/69171981/116199336-dbcb6f00-a6eb-11eb-
 **Break Building Commands***
 
 https://user-images.githubusercontent.com/69171981/116199389-ea198b00-a6eb-11eb-8604-f8c2ebfc66f1.mp4
-
-**Admin Reaction Commands**
-
-https://user-images.githubusercontent.com/69171981/116199413-f271c600-a6eb-11eb-9721-983e6c2c96f4.mp4
-
-
-
 
