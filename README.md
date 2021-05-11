@@ -28,8 +28,3 @@ Discord bot that creates a message representing a card break with a body as well
 **Claim Commands**
 
 https://user-images.githubusercontent.com/69171981/116199336-dbcb6f00-a6eb-11eb-90fe-3daaeb5d60b7.mp4
-
-**Break Building Commands***
-
-https://user-images.githubusercontent.com/69171981/116199389-ea198b00-a6eb-11eb-8604-f8c2ebfc66f1.mp4
-
