@@ -7,6 +7,7 @@ Discord bot that creates a message representing a card break with a body as well
 
   * **!claim or !c `<key(s)>`** The core command of the bot, this command lets users claim the key(s) desired.
   * **!unclaim or !uc `<key(s)>`** Lets users unclaim their claim(s)
+  * **!available or !a** Displays key(s) that are not claimed
   * **!claimhelp** Sends a URL to this page.
   
 **Administrators:**
