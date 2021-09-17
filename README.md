@@ -12,8 +12,9 @@ Discord bot that creates a message representing a card break with a body as well
   * **!claimhelp** Sends a URL to this page.
   
 **Administrators:**
-
-  * **!build `<team>` `<price>`** Adds teams to a break with corresponding prices. **(EX: !build ANA 55 BOS 79)**
+ 
+  * **!teams `<team>` `<price>`** Adds teams to a break with corresponding prices. *Must have "$" next to prices*. **(EX: !teams ANA $55 BOS $79)**
+  * **!build** Creates the break.
   * **!title `<title>`** *(Optional)* The title of break **(EX: !title This is a Test Title!)**
   * **!desc `<description>`** *(Optional)* The description of the break **(EX: !desc Box 1, Box 2, Box 3)**
 <br/><br/>
