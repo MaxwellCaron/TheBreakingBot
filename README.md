@@ -23,9 +23,9 @@ Discord bot that creates a message representing a card break with a body as well
   * **!delclaim `<team>`** Removes the user that claimed the team **(EX: !delclaim SPOT-2)**
   * **!changeprice `<team>` `<new price>`** Changes price of a team **(EX: !changeprice SPOT1 $1)**
   * **!discount `<discount amount>` `<team>`** Subtracts `<discount amount>` from `<team>` **(EX: !discount $10 SPOT1 SPOT-2)**
-  * **!changeteam `<old name>` `<new name>`** Changes name of already active team **(EX: !changeteam SPOT-2 SPOT-7)**
-  * **!delteam `<team>`** Deletes a team **(EX: !delteam SPOT-7)**
-  * **!addteam `<team>` `<price>`** Adds a team to the active break, `<price>` is only needed in a `<team>` - `<price>` break format. **(EX: !addteam SPOT-3 $77)**
+  * **!changekey `<old name>` `<new name>`** Changes name of already active team **(EX: !changeteam SPOT-2 SPOT-7)**
+  * **!delkey `<team>`** Deletes a team **(EX: !delteam SPOT-7)**
+  * **!addkey `<team>` `<price>`** Adds a team to the active break, `<price>` is only needed in a `<team>` - `<price>` break format. **(EX: !addteam SPOT-3 $77)**
 
   * **!export** Creates a spreadsheet that lasts for 1 minute with the team and user on it **(Best for copying & pasting into a personal sheet)** 
   * **!delbreak** Deletes the break in the current channel 
